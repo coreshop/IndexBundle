@@ -1,5 +1,5 @@
 services:
-    coreshop.index.pimcore.document.tag.filter:
+    coreshop.pimcore.document.tag.filter:
         class: CoreShop\Component\Resource\Pimcore\ResourceDocumentTagFactory
         arguments:
             - 'CoreShop\Bundle\ResourceBundle\CoreExtension\Document\Select'
@@ -8,7 +8,7 @@ services:
         tags:
             - { name: coreshop.pimcore.document.tag, type: coreshop_filter }
 
-    coreshop.index.pimcore.document.tag.index:
+    coreshop.pimcore.document.tag.index:
         class: CoreShop\Component\Resource\Pimcore\ResourceDocumentTagFactory
         arguments:
             - 'CoreShop\Bundle\ResourceBundle\CoreExtension\Document\Select'
