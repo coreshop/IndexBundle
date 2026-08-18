@@ -371,6 +371,41 @@
  */
 
 /**
+ * CoreShop IndexBundle Studio Plugin — filter registrations.
+ *
+ * Registers the filter manager widget, the coreshop_filter object data type and the schema
+ * widgets the filter condition forms need. Registered as a module (not from the plugin's
+ * onInit) because the StudioForm widget registry is bound by the StudioFormBundle plugin's
+ * own onInit and plugin order is not guaranteed; modules are initialised after every
+ * plugin's onInit.
+ *
+ * This source file is available under the terms of the
+ * CoreShop Commercial License (CCL)
+ * Full copyright and license information is available in
+ * LICENSE.md which is distributed with this source code.
+ *
+ * @copyright  Copyright (c) CoreShop GmbH (https://www.coreshop.com)
+ * @license    CoreShop Commercial License (CCL)
+ */
+
+/**
+ * CoreShop IndexBundle Studio Plugin — index registrations.
+ *
+ * Registers the index manager widget and the interpreter schema widgets. Registered as a
+ * module (not from the plugin's onInit) because the StudioForm widget registry is bound by
+ * the StudioFormBundle plugin's own onInit and plugin order is not guaranteed; modules are
+ * initialised after every plugin's onInit.
+ *
+ * This source file is available under the terms of the
+ * CoreShop Commercial License (CCL)
+ * Full copyright and license information is available in
+ * LICENSE.md which is distributed with this source code.
+ *
+ * @copyright  Copyright (c) CoreShop GmbH (https://www.coreshop.com)
+ * @license    CoreShop Commercial License (CCL)
+ */
+
+/**
  * CoreShop ResourceBundle Studio Plugin
  *
  * This source file is available under the terms of the
